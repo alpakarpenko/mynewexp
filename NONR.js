@@ -3246,7 +3246,7 @@ function ebatspsRoutineBegin(snapshot) {
     psychoJS._saveResults = 0;
     
     // Generate filename for results
-    let filename = psychoJS._experiment._participant '_' + psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
+    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
     // Extract data object from experiment
     let dataObj = psychoJS._experiment._trialsData;
     // Convert data object to CSV
