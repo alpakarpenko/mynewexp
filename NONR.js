@@ -2,7 +2,7 @@
  * Nonr *
  *************/
 
-import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.5.js';
+import { core, data, sound, util, visual, hardware } from 'https://unpkg.com/psychojs@2024.2.5/dist/psychojs-2024.2.5.js';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;
